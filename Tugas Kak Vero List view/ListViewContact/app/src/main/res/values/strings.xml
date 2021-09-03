@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">List View Contact</string>
+    <string name="txt_nama">Nama</string>
+    <string name="txt_no_telp">No Telp</string>
+</resources>

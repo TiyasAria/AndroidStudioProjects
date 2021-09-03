@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Smart Quizez</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_smart">Smart</string>
+    <string name="txt_quizez">Quizez</string>
+    <string name="txt_belajar_dan_bermain">Belajar dan Bermain</string>
+    <string name="txt_start">Start</string>
+    <string name="txt_your_score">Your Score</string>
+    <string name="txt_desc">desc</string>
+    <string name="txt_detail_awal">Ayok Mulai Belajar \ndan Bermain!</string>
+    <string name="txt_home">Home</string>
+    <string name="txt_level_1">Level 1</string>
+    <string name="txt_detailLevel">Pengetahuan \nUmum</string>
+    <string name="txt_level2">Level 2</string>
+    <string name="txt_level3">Level 3</string>
+    <string name="txt_level4">Level 4</string>
+    <string name="txt_soal">Apa Warna bendera negara indonesia ?</string>
+    <string name="txt_1_5_question">1/5 Question</string>
+    <string name="txt_contohOpsi">RadioButton</string>
+    <string name="txt_menu">Menu</string>
+    <string name="txt_next">Next</string>
+    <string name="txt_congratulation">Congratulation</string>
+    <string name="txt_score">Score :</string>
+    <string name="txt_highscore">Highscore :</string>
+    <string name="txt_next_level">Next Level</string>
+    <string name="_0">0</string>
+    <string name="txt_coba_lagi">Coba Lagi</string>
+
+
+</resources>

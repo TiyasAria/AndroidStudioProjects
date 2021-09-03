@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/bg_home">
+
+    <TextView
+        android:id="@+id/tv_judul1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/artelic"
+        android:text="@string/txt_smart"
+        android:textSize="@dimen/_70sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/_20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginEnd="@dimen/_80dp"
+        android:textColor="#FE8900"/>
+
+    <TextView
+        android:id="@+id/tv_judul2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_80dp"
+        android:fontFamily="@font/artelic"
+        android:text="@string/txt_quizez"
+        android:textSize="@dimen/_70sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_judul1"
+        tools:ignore="MissingConstraints"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/artelic"
+        android:text="@string/txt_belajar_dan_bermain"
+        android:textSize="@dimen/_40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_judul2"
+        tools:ignore="MissingConstraints"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_desc"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginStart="@dimen/_40dp"
+        android:layout_marginEnd="@dimen/_40dp"
+        android:text="@string/txt_start"
+        android:fontFamily="@font/winter"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_40sp"
+        android:background="@drawable/btn_shape"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
